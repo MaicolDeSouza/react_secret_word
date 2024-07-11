@@ -12,6 +12,8 @@ import GameOver from "./component/GameOver";
 import { wordsList } from "./data/words";
 
 function App() {
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const stages = [
     { id: 1, name: "start" },
     { id: 2, name: "game" },
